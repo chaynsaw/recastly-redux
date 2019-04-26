@@ -20,7 +20,7 @@ const mapDispatchToProps = (dispatch) => {
 
   // gets _________ function and makes it available to the Search component (under this.props.actions)
   return {
-    handleSearchInputChange: query => dispatch(handleVideoSearch(query))
+    handleSearchInputChange: query => dispatch(handleSearchChange(query))
   };
 };
 
